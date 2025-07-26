@@ -1,0 +1,25 @@
+{
+  "name": "HTML-CSS-JS Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "mounts": ["source=${localWorkspaceFolder},target=/workspace,type=bind"],
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [5500],
+  
+  //コンテナ起動時に自動でLive Serverを起動させる
+  "postStartCommand": "live-server --port=5500",
+
+  "postCreateCommand": "echo 'Dev Container Ready'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer"
+      ]
+    }
+  }
+}
