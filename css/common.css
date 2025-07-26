@@ -1,0 +1,13 @@
+body {
+    background-color: yellow;
+}
+
+#header, #footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+}
+
+#main {
+    background-color: darkkhaki;
+}
