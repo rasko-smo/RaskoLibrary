@@ -1,13 +1,47 @@
 body {
-    background-color: yellow;
+    background-color: rgb(240, 240, 166);
+
+    /* 背景画像の設定 */
+    /* background-image: url("../image/green_garden.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    /* padding: 0px; */
+    margin: 0px;
 }
 
 #header, #footer {
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    text-align: center;
     background-color: aquamarine;
 }
 
+#header {
+    position: sticky;
+    top: 0;
+}
+
+#header-box {
+    display: flex;
+    flex-flow: row;
+}
+
+.header-item {
+    background-color:  rgb(122, 221, 224);
+    width: calc(100% / 6);
+    border: 2px outset whitesmoke;
+}
+
+/* #footer {
+    position: sticky;
+    position: absolute;
+    bottom: 0;
+} */
+
 #main {
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
+    height: 50%;
 }
