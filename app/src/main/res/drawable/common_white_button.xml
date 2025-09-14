@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!-- ボタンの背景色を設定 -->
+            <solid android:color="@color/white" />
+            <!-- ボタンの角丸を設定 -->
+            <corners android:radius="3dp" />
+            <!-- ボタンの枠線を設定 -->
+            <stroke
+                android:width="3dp"
+                android:color="@color/common_green"/>
+        </shape>
+    </item>
+</selector>

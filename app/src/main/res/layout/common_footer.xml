@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
-        android:background="@drawable/common_button"
+        android:background="@drawable/common_green_button"
         app:backgroundTint="@null"
         android:text="1"/>
 
@@ -27,7 +27,7 @@
         android:layout_weight="1"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
-        android:background="@drawable/common_button"
+        android:background="@drawable/common_green_button"
         app:backgroundTint="@null"
         android:text="2"/>
 
@@ -38,7 +38,7 @@
         android:layout_weight="1"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
-        android:background="@drawable/common_button"
+        android:background="@drawable/common_green_button"
         app:backgroundTint="@null"
         android:text="3"/>
 
@@ -49,7 +49,7 @@
         android:layout_weight="1"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
-        android:background="@drawable/common_button"
+        android:background="@drawable/common_green_button"
         app:backgroundTint="@null"
         android:text="4"/>
 
@@ -60,7 +60,7 @@
         android:layout_weight="1"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
-        android:background="@drawable/common_button"
+        android:background="@drawable/common_green_button"
         app:backgroundTint="@null"
         android:text="5"/>
 
@@ -71,7 +71,7 @@
         android:layout_weight="1"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
-        android:background="@drawable/common_button"
+        android:background="@drawable/common_green_button"
         app:backgroundTint="@null"
         android:text="6"/>
 

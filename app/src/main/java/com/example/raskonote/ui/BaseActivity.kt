@@ -2,12 +2,13 @@ package com.example.raskonote.ui
 
 import android.content.Intent
 import android.widget.Button
-import android.widget.EditText
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.raskonote.R
 
 abstract class BaseActivity : AppCompatActivity() {
+
+    private var selectedButton: Button? = null
 
     protected fun createFooterEvent(footer: LinearLayout) {
         val button1 = footer.findViewById<Button>(R.id.footerButton1)
@@ -18,9 +19,38 @@ abstract class BaseActivity : AppCompatActivity() {
         val button6 = footer.findViewById<Button>(R.id.footerButton6)
 
         button1.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
+            changeButtonColor(button1)
+//            val intent = Intent(this, LoginActivity::class.java)
+//            startActivity(intent)
+        }
+        button2.setOnClickListener {
+            changeButtonColor(button2)
+        }
+        button3.setOnClickListener {
+            changeButtonColor(button3)
+        }
+        button4.setOnClickListener {
+            changeButtonColor(button4)
+        }
+        button5.setOnClickListener {
+            changeButtonColor(button5)
+        }
+        button6.setOnClickListener {
+            changeButtonColor(button6)
         }
 
+        changeButtonColor(button1)
+    }
+
+    private fun changeButtonColor(button: Button) {
+        if (selectedButton != null) {
+            selectedButton?.background = getDrawable(R.drawable.common_green_button)
+            selectedButton?.setTextColor(getColor(R.color.white))
+        }
+
+        button?.background = getDrawable(R.drawable.common_white_button)
+        button?.setTextColor(getColor(R.color.common_green))
+
+        selectedButton = button
     }
 }
