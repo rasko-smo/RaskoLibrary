@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.raskonote"
+    namespace = "com.example.raskolibrary"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.raskonote"
+        applicationId = "com.example.raskolibrary"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

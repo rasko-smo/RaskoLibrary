@@ -1,8 +1,8 @@
-package com.example.raskonote.ui
+package com.example.raskolibrary.ui
 
 import android.os.Bundle
 import android.widget.LinearLayout
-import com.example.raskonote.R
+import com.example.raskolibrary.R
 
 class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

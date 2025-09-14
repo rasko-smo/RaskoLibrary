@@ -1,4 +1,4 @@
-package com.example.raskonote
+package com.example.raskolibrary
 
 import org.junit.Test
 

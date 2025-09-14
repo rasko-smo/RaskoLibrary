@@ -1,10 +1,9 @@
-package com.example.raskonote.ui
+package com.example.raskolibrary.ui
 
-import android.content.Intent
 import android.widget.Button
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.example.raskonote.R
+import com.example.raskolibrary.R
 
 abstract class BaseActivity : AppCompatActivity() {
 

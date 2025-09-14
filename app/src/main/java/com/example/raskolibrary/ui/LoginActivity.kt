@@ -1,12 +1,11 @@
-package com.example.raskonote.ui
+package com.example.raskolibrary.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.raskonote.R
+import com.example.raskolibrary.R
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
