@@ -1,0 +1,12 @@
+<resources>
+
+    <!--  共通  -->
+    <string name="app_name">RaskoNote</string>
+
+    <!--  ログイン画面  -->
+    <string name="login_title">Rasko’s Note</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_errorMassage">This password is incorrect.</string>
+
+</resources>
