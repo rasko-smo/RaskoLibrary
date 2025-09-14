@@ -3,9 +3,9 @@
     <item>
         <shape>
             <!-- ボタンの背景色を設定 -->
-            <solid android:color="#009688" />
+            <solid android:color="@color/common_green" />
             <!-- ボタンの角丸を設定 -->
-            <corners android:radius="5dp" />
+            <corners android:radius="3dp" />
         </shape>
     </item>
 </selector>
